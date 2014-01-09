@@ -762,7 +762,7 @@ else:
     if not 'bdist_egg' in sys.argv:
         # generate and install bzr.1 only with plain install, not the
         # easy_install one
-        DATA_FILES = [('man/man1', ['bzr.1'])]
+        DATA_FILES = [('share/man/man1', ['bzr.1'])]
 
     DATA_FILES = DATA_FILES + I18N_FILES
     # std setup
